@@ -3,7 +3,7 @@ function setup() {
 }
 
 function draw() {
-  background(250);
+  background(25);
   rotateY(frameCount * 0.01);
 
   for (let j = 0; j < 5; j++) {
@@ -16,7 +16,7 @@ function draw() {
       );
       rotateZ(frameCount * 0.002);
       push();
-      sphere(8, 6, 4);
+      sphere(4, 3, 2);
       pop();
     }
     pop();
