@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(710, 400, WEBGL);
+  createCanvas(1920, 1080, WEBGL);
 }
 
 function draw() {
