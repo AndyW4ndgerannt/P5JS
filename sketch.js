@@ -17,6 +17,7 @@ function draw() {
       rotateZ(frameCount * 0.002);
       push();
       sphere(32, 16, 8, 4, 2, 1);
+      sphere(5, 7, 8, 4, 2, 1);
       pop();
     }
     pop();
